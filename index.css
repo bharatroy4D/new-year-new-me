@@ -23,6 +23,7 @@
 /* Common class use */
 }
 .container{
+          
           width: 80%;
           margin: 0 auto;
 
@@ -37,6 +38,9 @@
           height: 64px;
           border: none;
           cursor: pointer;      
+}
+section{
+          
 }
 .section-title{
           color: var(--Dark-01, #151414);
@@ -78,9 +82,7 @@ main section{
           margin-bottom: 20px;
 }
 /* data-container section start */
-section{
-          border: 2px solid;
-}
+
 .data-container{
           display: flex;
           align-items: center;
@@ -113,10 +115,69 @@ section{
           font-weight: 400;
 }     
 /* .skill-container section*/
+
+.skill-container{
+          margin-top: 0;
+}
+
 .skill-content{
           display: flex;
           justify-content: space-between;
 }
+.skill-items{
+          text-align: center;
+}
+.skill-items h1{
+          margin: 10px 0;
+}
+.skill-items p{
+          color: #737272;
+          text-align: center;
+          font-size: 15px;
+          font-weight: 500;
+}
+
+/* watch section star */
+
+.watch-container{
+          background-image: url(./images/watch.png);
+          background-position: center;
+          background-size: cover;
+           background-repeat: no-repeat; 
+          border-radius: 8px;
+
+      
+}
+.watch-title{
+          width: 459px;
+          color: #FFF;
+          font-size: 40px;
+          font-weight: 700;
+}
+.watch-container div{
+          padding: 50px;
+
+}
+.watch-title{
+          margin-bottom: 20px;
+}
+/* footer section start */
+
+footer{
+          margin-top: 100px;
+}
+.feature-container{
+          display: flex;
+}
+.feature{
+          width: 50%;
+}
+.subscribe{
+          width: 50%;
+}
+
+
+
 
           
 
